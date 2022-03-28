@@ -11,7 +11,6 @@
   inputs.src-nuuid-master.ref   = "refs/heads/master";
   inputs.src-nuuid-master.owner = "yglukhov";
   inputs.src-nuuid-master.repo  = "nim-only-uuid";
-  inputs.src-nuuid-master.dir   = "";
   inputs.src-nuuid-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
